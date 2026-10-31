@@ -1,0 +1,7 @@
+# API data exports (contain deployment details)
+export/
+scratch/
+.env
+
+.venv/
+__pycache__/

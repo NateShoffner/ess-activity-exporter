@@ -1,0 +1,10 @@
+[project]
+name = "ess-activity-exporter"
+version = "0.1.0"
+authors = [{ name = "Nate Shoffner", email = "nate.shoffner@gmail.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = ["typer>=0.12", "pydantic>=2.5", "requests>=2.31", "python-dotenv>=1.0"]
+
+[tool.uv]
+package = false
